@@ -1,6 +1,9 @@
 # flow-react-view-test
 Demonstrates an experimental react view implementation for neos/flow
 
+This implementation is currently server side only! 
+An automatically created frontend script bundle is possible but needs way more work.
+
 As an alternative to Fluid or Fusion, this templating method utilizes react for rendering.
 You can still implement ViewHelper in PHP which will be called during rendering via inter process communication (unix domain socket).
 
