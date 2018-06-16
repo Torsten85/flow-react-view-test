@@ -17,7 +17,7 @@ export default () => (
       </div>
 
       <Context>
-        {({ test }) => <h1>CC: {test}</h1>}
+        {({ test }) => <h1>View assigned variable: {test}</h1>}
       </Context>
       <br />
 
