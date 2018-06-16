@@ -1,0 +1,17 @@
+
+-
+  name: 'default'
+  uriPattern: ''
+  defaults:
+    '@package': 'Yeebase.Test'
+    '@controller': 'Standard'
+    '@action': 'index'
+    '@format': 'html'
+
+-
+  name: 'else'
+  uriPattern: 'page/{@action}'
+  defaults:
+    '@package': 'Yeebase.Test'
+    '@controller': 'Standard'
+    '@format': 'html'

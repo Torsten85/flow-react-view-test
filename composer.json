@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "yeebase/test",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yeebase\\Test\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Yeebase.Test"
+        }
+    }
+}
